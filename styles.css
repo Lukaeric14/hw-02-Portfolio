@@ -257,3 +257,35 @@ h1 {
     transform: translateY(50px);
 }
 
+@media only screen and (max-width: 1726px) {
+    .project-blank {
+      height: 0px;
+      width: 0px;
+    }
+
+    .project-collection {
+        justify-content: center;
+    }
+
+    .project-others > div > p {
+        font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 958px) {
+    .project-blank {
+      height: 0px;
+      width: 0px;
+    }
+
+    .project-collection {
+        justify-content: center;
+    }
+
+    .project-others > div > p {
+        font-size: 10px;
+    }
+    .project-others > div > h1 {
+        font-size: 25px;
+    }
+  }

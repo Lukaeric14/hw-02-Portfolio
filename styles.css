@@ -257,6 +257,11 @@ h1 {
     transform: translateY(50px);
 }
 
+a, li {
+    text-decoration: none;
+    color: black
+}
+
 @media only screen and (max-width: 1726px) {
     .project-blank {
       height: 0px;
